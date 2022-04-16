@@ -19,7 +19,7 @@ h1 {
 
 img {
   margin: 0 auto;
-  width: 250px;
+  width: 100%;
   height: auto;
 }
 
@@ -49,9 +49,27 @@ button {
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
+  flex: 6;
 }
 
 button:hover {
   border: 1px solid rgb(54, 4, 54);
   background: rgb(54, 4, 54);
+}
+
+.btnContainer {
+  display: flex;
+}
+
+input {
+  text-align: center;
+  width: 100%;
+  flex: 1;
+  border: 2px solid purple;
+}
+
+.section-one {
+  display: flex;
+  width: 50%;
+  margin: 2rem auto; 
 }
